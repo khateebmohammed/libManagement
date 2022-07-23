@@ -1,0 +1,13 @@
+C:\Users\khatib\source\repos\libManagement\libManagement\bin\Debug\libManagement.exe.config
+C:\Users\khatib\source\repos\libManagement\libManagement\bin\Debug\libManagement.exe
+C:\Users\khatib\source\repos\libManagement\libManagement\bin\Debug\libManagement.pdb
+C:\Users\khatib\source\repos\libManagement\libManagement\obj\Debug\libManagement.csprojAssemblyReference.cache
+C:\Users\khatib\source\repos\libManagement\libManagement\obj\Debug\libManagement.Form1.resources
+C:\Users\khatib\source\repos\libManagement\libManagement\obj\Debug\libManagement.Properties.Resources.resources
+C:\Users\khatib\source\repos\libManagement\libManagement\obj\Debug\libManagement.csproj.GenerateResource.cache
+C:\Users\khatib\source\repos\libManagement\libManagement\obj\Debug\libManagement.csproj.CoreCompileInputs.cache
+C:\Users\khatib\source\repos\libManagement\libManagement\obj\Debug\libManagement.exe
+C:\Users\khatib\source\repos\libManagement\libManagement\obj\Debug\libManagement.pdb
+C:\Users\khatib\source\repos\libManagement\libManagement\obj\Debug\libManagement.mainPage.mainpage.resources
+C:\Users\khatib\source\repos\libManagement\libManagement\obj\Debug\libManagement.mainPage.Form2.resources
+C:\Users\khatib\source\repos\libManagement\libManagement\obj\Debug\libManagement.mainPage.create_account.resources
