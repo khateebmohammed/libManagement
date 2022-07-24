@@ -14,7 +14,7 @@ namespace libManagement
     public partial class Form1 : Form
     {
 
-
+        Business_Layer.LOGIN_CLASS Log_Class = new Business_Layer.LOGIN_CLASS();
         [DllImport("Gdi32.dll", EntryPoint = "CreateRoundRectRgn")]
         private static extern IntPtr CreateRoundRectRgn
        (
@@ -62,18 +62,18 @@ namespace libManagement
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            button1.Region = Region.FromHrgn(CreateRoundRectRgn(0, 0, button1.Width,button1.Height, 30, 30));
+            btn_Login.Region = Region.FromHrgn(CreateRoundRectRgn(0, 0, btn_Login.Width,btn_Login.Height, 30, 30));
 
         }
 
         private void Button1_MouseMove(object sender, MouseEventArgs e)
         {
-            button1.ForeColor = Color.Snow;
+            btn_Login.ForeColor = Color.Snow;
         }
 
         private void Button1_MouseLeave(object sender, EventArgs e)
         {
-            button1.ForeColor = Color.Indigo;
+            btn_Login.ForeColor = Color.Indigo;
 
         }
 
@@ -94,7 +94,7 @@ namespace libManagement
 
         private void Label8_Click(object sender, EventArgs e)
         {
-
+            
         }
 
         private void Label7_Click(object sender, EventArgs e)
@@ -111,13 +111,6 @@ namespace libManagement
         private void Label5_Click(object sender, EventArgs e)
         {
 
-        }
-
-        private void Button1_Click(object sender, EventArgs e)
-        {
-            mainPage.mainpage fn = new mainPage.mainpage();
-            this.Hide();
-            fn.Show();
         }
 
         private void Panel4_Paint(object sender, PaintEventArgs e)
@@ -153,6 +146,42 @@ namespace libManagement
         private void PictureBox1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void Btn_Login_Click(object sender, EventArgs e)
+        {
+            DataTable Dt = Log_Class.LOGIN(txt_User_ID.Text, txt_User_PWD.Text);
+            try
+            {
+                if (Dt.Rows.Count > 0)
+                {
+                    MessageBox.Show("تم تسجيل دخولك بنجاح", "تأكيد تسجيل الدخول", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    mainPage.mainpage fn = new mainPage.mainpage();
+                    this.Hide();
+                    fn.Show();
+                }
+                else
+                {
+                    MessageBox.Show("أسم المستخدم أو كلمة المرور غير صحيحة أعد المحاولة!", "خطأ في تسجيل الدخول", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    txt_User_ID.Focus();
+                }
+            }
+            catch
+            {
+                MessageBox.Show("حدث خطأ ما", "خطأ", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }            
+        }
+
+        private void CB_showPWD_CheckedChanged(object sender, EventArgs e)
+        {
+            if (CB_showPWD.Checked)
+            {
+                txt_User_PWD.PasswordChar = txt_User_ID.PasswordChar;
+            }
+            else
+            {
+                txt_User_PWD.PasswordChar = '*';
+            }
         }
     }
 }
