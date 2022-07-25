@@ -44,6 +44,36 @@ namespace libManagement.mainPage
             }
         }
 
+
+
+        private Form activeform = null;
+        private void openchildform(Form childform)
+        {
+            if (activeform != null)
+            {
+                activeform.Close();
+            }
+
+            panel4.Controls.Clear();
+
+
+            activeform = childform;
+            childform.TopLevel = false;
+            childform.FormBorderStyle = FormBorderStyle.None;
+            childform.Dock = DockStyle.Fill;
+            panel4.Controls.Add(childform);
+            panel4.Tag = childform;
+            childform.Show();
+
+
+
+
+
+
+
+        }
+
+
         private void Button1_MouseMove(object sender, MouseEventArgs e)
         {
             button1.BackColor = Color.MediumSlateBlue;
