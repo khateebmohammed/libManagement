@@ -60,12 +60,6 @@
     <Compile Include="mainPage\create_account.Designer.cs">
       <DependentUpon>create_account.cs</DependentUpon>
     </Compile>
-    <Compile Include="mainPage\Form2.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="mainPage\Form2.Designer.cs">
-      <DependentUpon>Form2.cs</DependentUpon>
-    </Compile>
     <Compile Include="mainPage\mainpage.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -79,9 +73,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="mainPage\create_account.resx">
       <DependentUpon>create_account.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="mainPage\Form2.resx">
-      <DependentUpon>Form2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="mainPage\mainpage.resx">
       <DependentUpon>mainpage.cs</DependentUpon>
@@ -107,6 +98,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="PL\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
