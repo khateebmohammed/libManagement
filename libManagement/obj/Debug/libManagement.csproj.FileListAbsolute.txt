@@ -17,7 +17,6 @@ D:\IT\IT\IT_Level4\Term1\Lecture\Graduate_Project_D_Mokhtar\Our Project(Library 
 D:\IT\IT\IT_Level4\Term1\Lecture\Graduate_Project_D_Mokhtar\Our Project(Library Managment System)\Lab\libManagement\libManagement\obj\Debug\libManagement.csprojAssemblyReference.cache
 D:\IT\IT\IT_Level4\Term1\Lecture\Graduate_Project_D_Mokhtar\Our Project(Library Managment System)\Lab\libManagement\libManagement\obj\Debug\libManagement.Form1.resources
 D:\IT\IT\IT_Level4\Term1\Lecture\Graduate_Project_D_Mokhtar\Our Project(Library Managment System)\Lab\libManagement\libManagement\obj\Debug\libManagement.mainPage.create_account.resources
-D:\IT\IT\IT_Level4\Term1\Lecture\Graduate_Project_D_Mokhtar\Our Project(Library Managment System)\Lab\libManagement\libManagement\obj\Debug\libManagement.mainPage.Form2.resources
 D:\IT\IT\IT_Level4\Term1\Lecture\Graduate_Project_D_Mokhtar\Our Project(Library Managment System)\Lab\libManagement\libManagement\obj\Debug\libManagement.mainPage.mainpage.resources
 D:\IT\IT\IT_Level4\Term1\Lecture\Graduate_Project_D_Mokhtar\Our Project(Library Managment System)\Lab\libManagement\libManagement\obj\Debug\libManagement.Properties.Resources.resources
 D:\IT\IT\IT_Level4\Term1\Lecture\Graduate_Project_D_Mokhtar\Our Project(Library Managment System)\Lab\libManagement\libManagement\obj\Debug\libManagement.csproj.GenerateResource.cache
@@ -38,3 +37,5 @@ C:\Users\khatib\Documents\GitHub\libManagement\libManagement\obj\Debug\libManage
 C:\Users\khatib\Documents\GitHub\libManagement\libManagement\obj\Debug\libManagement.exe
 C:\Users\khatib\Documents\GitHub\libManagement\libManagement\obj\Debug\libManagement.pdb
 C:\Users\khatib\Documents\GitHub\libManagement\libManagement\obj\Debug\libManagement.PL.Departments.resources
+D:\IT\IT\IT_Level4\Term1\Lecture\Graduate_Project_D_Mokhtar\Our Project(Library Managment System)\Lab\libManagement\libManagement\obj\Debug\libManagement.PL.Departments.resources
+D:\IT\IT\IT_Level4\Term1\Lecture\Graduate_Project_D_Mokhtar\Our Project(Library Managment System)\Lab\libManagement\libManagement\obj\Debug\libManagement.PL.home_page.resources

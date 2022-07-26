@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Business_Layer\DEPARTEMNET_CLASS.cs" />
     <Compile Include="Business_Layer\LOGIN_CLASS.cs" />
     <Compile Include="Data_Access_Layer\DataAccessLayer.cs" />
     <Compile Include="Form1.cs">
