@@ -100,7 +100,7 @@ namespace libManagement
         private void Label7_Click(object sender, EventArgs e)
         {
             mainPage.create_account fn = new mainPage.create_account();
-            fn.Show();
+            fn.ShowDialog();
         }
 
         private void Label6_Click(object sender, EventArgs e)

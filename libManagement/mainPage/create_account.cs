@@ -72,9 +72,7 @@ namespace libManagement.mainPage
 
         private void PictureBox1_Click(object sender, EventArgs e)
         {
-            Form1 fn = new Form1();
-            this.Hide();
-            fn.Show();
+            this.Close();
         }
 
         private void Label3_Click(object sender, EventArgs e)
