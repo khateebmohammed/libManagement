@@ -16,7 +16,7 @@ namespace libManagement
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new mainPage.create_account());
+            Application.Run(new Form1());
         }
     }
 }

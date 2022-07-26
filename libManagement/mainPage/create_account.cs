@@ -76,5 +76,10 @@ namespace libManagement.mainPage
             this.Hide();
             fn.Show();
         }
+
+        private void Label3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

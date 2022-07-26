@@ -66,6 +66,18 @@
     <Compile Include="mainPage\mainpage.Designer.cs">
       <DependentUpon>mainpage.cs</DependentUpon>
     </Compile>
+    <Compile Include="PL\Departments.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Departments.Designer.cs">
+      <DependentUpon>Departments.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\home_page.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\home_page.Designer.cs">
+      <DependentUpon>home_page.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -76,6 +88,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="mainPage\mainpage.resx">
       <DependentUpon>mainpage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Departments.resx">
+      <DependentUpon>Departments.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\home_page.resx">
+      <DependentUpon>home_page.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -99,8 +117,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="PL\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

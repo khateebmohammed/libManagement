@@ -174,7 +174,12 @@ namespace libManagement
 
         private void CB_showPWD_CheckedChanged(object sender, EventArgs e)
         {
-            if (CB_showPWD.Checked)
+           
+        }
+     
+        private void Pb_showPWD_Click(object sender, EventArgs e)
+        {
+            if (txt_User_PWD.PasswordChar == '*')
             {
                 txt_User_PWD.PasswordChar = txt_User_ID.PasswordChar;
             }
