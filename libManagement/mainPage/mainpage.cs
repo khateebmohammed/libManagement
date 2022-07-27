@@ -48,8 +48,9 @@ namespace libManagement.mainPage
 
 
         private Form activeform = null;
-        private void openchildform(Form childform)
+        public void openchildform(Form childform)
         {
+            
             if (activeform != null)
             {
                 activeform.Close();
@@ -199,6 +200,29 @@ namespace libManagement.mainPage
             openchildform(new PL.Shilfs());
         
     }
+
+        private void Button4_Click(object sender, EventArgs e)
+        {
+            openchildform(new PL.Books());
+
+        }
+
+        private void Button8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button9_MouseMove(object sender, MouseEventArgs e)
+        {
+            button9.BackColor = Color.MediumSlateBlue;
+            button9.ForeColor = Color.Snow;
+        }
+
+        private void Button9_MouseLeave(object sender, EventArgs e)
+        {
+            button9.BackColor = Color.Lavender;
+            button9.ForeColor = Color.DarkGray;
+        }
     }
 }
 
