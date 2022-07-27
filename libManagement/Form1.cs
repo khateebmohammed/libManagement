@@ -31,7 +31,11 @@ namespace libManagement
         public Form1()
         {
             InitializeComponent();
-          //  this.Region = System.Drawing.Region.FromHrgn(CreateRoundRectRgn(0, 0, Width, Height, 25, 25));
+            //  this.Region = System.Drawing.Region.FromHrgn(CreateRoundRectRgn(0, 0, Width, Height, 25, 25));
+            this.notifyIcon1.Icon = this.Icon;
+            this.notifyIcon1.BalloonTipText = "Welcome back";
+            this.notifyIcon1.BalloonTipTitle = "Sign In";
+            this.notifyIcon1.ShowBalloonTip(5);
 
 
         }
@@ -155,10 +159,11 @@ namespace libManagement
             {
                 if (Dt.Rows.Count > 0)
                 {
-                    MessageBox.Show("تم تسجيل دخولك بنجاح", "تأكيد تسجيل الدخول", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                   // MessageBox.Show("تم تسجيل دخولك بنجاح", "تأكيد تسجيل الدخول", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     mainPage.mainpage fn = new mainPage.mainpage();
                     this.Hide();
                     fn.Show();
+                  
                 }
                 else
                 {

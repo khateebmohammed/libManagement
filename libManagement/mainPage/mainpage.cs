@@ -35,6 +35,7 @@ namespace libManagement.mainPage
             Region = System.Drawing.Region.FromHrgn(CreateRoundRectRgn(0, 0, Width, Height, 20, 20));
             button1.Region = Region.FromHrgn(CreateRoundRectRgn(0, 0, button1.Width, button1.Height, 20, 20));
             panel4.Region = Region.FromHrgn(CreateRoundRectRgn(0, 0, panel4.Width, panel4.Height, 20, 20));
+            panel7.Region = Region.FromHrgn(CreateRoundRectRgn(0, 0, panel7.Width, panel7.Height, 20, 20));
             panel5.Region = Region.FromHrgn(CreateRoundRectRgn(0, 0, panel5.Width, panel5.Height, 40, 40));
             panel6.Region = panel5.Region;
 
@@ -47,8 +48,9 @@ namespace libManagement.mainPage
 
 
         private Form activeform = null;
-        private void openchildform(Form childform)
+        public void openchildform(Form childform)
         {
+            
             if (activeform != null)
             {
                 activeform.Close();
@@ -198,6 +200,29 @@ namespace libManagement.mainPage
             openchildform(new PL.Shilfs());
         
     }
+
+        private void Button4_Click(object sender, EventArgs e)
+        {
+            openchildform(new PL.Books());
+
+        }
+
+        private void Button8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button9_MouseMove(object sender, MouseEventArgs e)
+        {
+            button9.BackColor = Color.MediumSlateBlue;
+            button9.ForeColor = Color.Snow;
+        }
+
+        private void Button9_MouseLeave(object sender, EventArgs e)
+        {
+            button9.BackColor = Color.Lavender;
+            button9.ForeColor = Color.DarkGray;
+        }
     }
 }
 
