@@ -192,6 +192,12 @@ namespace libManagement.mainPage
         {
             openchildform(new PL.Departments());
         }
+
+        private void Button3_Click(object sender, EventArgs e)
+        {
+            openchildform(new PL.Shilfs());
+        
+    }
     }
 }
 
