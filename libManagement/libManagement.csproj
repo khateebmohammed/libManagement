@@ -88,7 +88,7 @@
     <Compile Include="PL\Shilfs.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="PL\Shilfs.Designer.cs">
+    <Compile Include="PL\Shilfs.designer.cs">
       <DependentUpon>Shilfs.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
