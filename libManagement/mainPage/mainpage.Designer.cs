@@ -34,6 +34,7 @@
             this.panel5 = new System.Windows.Forms.Panel();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.button9 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
@@ -46,7 +47,6 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel7 = new System.Windows.Forms.Panel();
-            this.button9 = new System.Windows.Forms.Button();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -121,6 +121,27 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(355, 665);
             this.panel3.TabIndex = 2;
+            // 
+            // button9
+            // 
+            this.button9.BackColor = System.Drawing.Color.Lavender;
+            this.button9.FlatAppearance.BorderColor = System.Drawing.Color.SlateBlue;
+            this.button9.FlatAppearance.BorderSize = 0;
+            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button9.ForeColor = System.Drawing.Color.DarkGray;
+            this.button9.Image = ((System.Drawing.Image)(resources.GetObject("button9.Image")));
+            this.button9.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button9.Location = new System.Drawing.Point(40, 545);
+            this.button9.Name = "button9";
+            this.button9.Padding = new System.Windows.Forms.Padding(35, 0, 30, 0);
+            this.button9.Size = new System.Drawing.Size(275, 58);
+            this.button9.TabIndex = 10;
+            this.button9.Text = "button9";
+            this.button9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button9.UseVisualStyleBackColor = false;
+            this.button9.MouseLeave += new System.EventHandler(this.Button9_MouseLeave);
+            this.button9.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Button9_MouseMove);
             // 
             // button8
             // 
@@ -339,35 +360,14 @@
             this.panel7.Size = new System.Drawing.Size(1445, 61);
             this.panel7.TabIndex = 3;
             // 
-            // button9
-            // 
-            this.button9.BackColor = System.Drawing.Color.Lavender;
-            this.button9.FlatAppearance.BorderColor = System.Drawing.Color.SlateBlue;
-            this.button9.FlatAppearance.BorderSize = 0;
-            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button9.ForeColor = System.Drawing.Color.DarkGray;
-            this.button9.Image = ((System.Drawing.Image)(resources.GetObject("button9.Image")));
-            this.button9.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button9.Location = new System.Drawing.Point(40, 545);
-            this.button9.Name = "button9";
-            this.button9.Padding = new System.Windows.Forms.Padding(35, 0, 30, 0);
-            this.button9.Size = new System.Drawing.Size(275, 58);
-            this.button9.TabIndex = 10;
-            this.button9.Text = "button9";
-            this.button9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button9.UseVisualStyleBackColor = false;
-            this.button9.MouseLeave += new System.EventHandler(this.Button9_MouseLeave);
-            this.button9.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Button9_MouseMove);
-            // 
             // pictureBox3
             // 
             this.pictureBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(1342, 3);
+            this.pictureBox3.Location = new System.Drawing.Point(1342, 8);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(75, 55);
+            this.pictureBox3.Size = new System.Drawing.Size(65, 45);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox3.TabIndex = 2;
             this.pictureBox3.TabStop = false;
