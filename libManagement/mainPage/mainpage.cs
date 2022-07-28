@@ -205,7 +205,7 @@ namespace libManagement.mainPage
 
         private void Button4_Click(object sender, EventArgs e)
         {
-            openchildform(new PL.Books());
+            openchildform(new PL.Lib_Content());
 
         }
 

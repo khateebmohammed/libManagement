@@ -39,7 +39,7 @@
             this.panel6.BackColor = System.Drawing.Color.PaleTurquoise;
             this.panel6.Location = new System.Drawing.Point(282, 260);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(414, 236);
+            this.panel6.Size = new System.Drawing.Size(414, 235);
             this.panel6.TabIndex = 3;
             // 
             // panel5
@@ -47,9 +47,9 @@
             this.panel5.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel5.BackColor = System.Drawing.Color.MediumPurple;
-            this.panel5.Location = new System.Drawing.Point(730, 260);
+            this.panel5.Location = new System.Drawing.Point(748, 260);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(414, 236);
+            this.panel5.Size = new System.Drawing.Size(414, 235);
             this.panel5.TabIndex = 2;
             // 
             // home_page
@@ -57,7 +57,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(246)))), ((int)(((byte)(255)))));
-            this.ClientSize = new System.Drawing.Size(1427, 757);
+            this.ClientSize = new System.Drawing.Size(1445, 756);
             this.Controls.Add(this.panel6);
             this.Controls.Add(this.panel5);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;

@@ -36,11 +36,22 @@ namespace libManagement.PL
 
         private void Panel1_Paint(object sender, PaintEventArgs e)
         {
-            btn_Save.Region = Region.FromHrgn(CreateRoundRectRgn(0, 0, btn_Save.Width, btn_Save.Height, 30, 30));
-            btn_Delete.Region = Region.FromHrgn(CreateRoundRectRgn(0, 0, btn_Save.Width, btn_Save.Height, 30, 30));
-            btn_Edit.Region = Region.FromHrgn(CreateRoundRectRgn(0, 0, btn_Save.Width, btn_Save.Height, 30, 30));
-            btn_New.Region = Region.FromHrgn(CreateRoundRectRgn(0, 0, btn_Save.Width, btn_Save.Height, 30, 30));
+           
+        }
 
+        private void Books_Load(object sender, EventArgs e)
+        {
+            btn_Save.Region = Region.FromHrgn(CreateRoundRectRgn(0, 0, btn_Save.Width, btn_Save.Height, 30, 30));
+          //  btn_Delete.Region = Region.FromHrgn(CreateRoundRectRgn(0, 0, btn_Save.Width, btn_Save.Height, 30, 30));
+            //btn_Edit.Region = Region.FromHrgn(CreateRoundRectRgn(0, 0, btn_Save.Width, btn_Save.Height, 30, 30));
+            btn_New.Region = Region.FromHrgn(CreateRoundRectRgn(0, 0, btn_Save.Width, btn_Save.Height, 30, 30));
+            this.Region = Region.FromHrgn(CreateRoundRectRgn(0, 0, this.Width, this.Height, 30, 30));
+
+        }
+
+        private void PictureBox2_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
