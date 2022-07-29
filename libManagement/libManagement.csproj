@@ -94,7 +94,7 @@
     <Compile Include="PL\Shilfs.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="PL\Shilfs.Designer.cs">
+    <Compile Include="PL\Shilfs.designer.cs">
       <DependentUpon>Shilfs.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
@@ -145,6 +145,5 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
