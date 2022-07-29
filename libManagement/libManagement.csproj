@@ -85,6 +85,12 @@
     <Compile Include="PL\home_page.Designer.cs">
       <DependentUpon>home_page.cs</DependentUpon>
     </Compile>
+    <Compile Include="PL\Lib_Content.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Lib_Content.Designer.cs">
+      <DependentUpon>Lib_Content.cs</DependentUpon>
+    </Compile>
     <Compile Include="PL\Shilfs.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -111,6 +117,9 @@
     <EmbeddedResource Include="PL\home_page.resx">
       <DependentUpon>home_page.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="PL\Lib_Content.resx">
+      <DependentUpon>Lib_Content.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="PL\Shilfs.resx">
       <DependentUpon>Shilfs.cs</DependentUpon>
     </EmbeddedResource>
@@ -136,6 +145,5 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

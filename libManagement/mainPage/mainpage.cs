@@ -38,13 +38,14 @@ namespace libManagement.mainPage
             panel7.Region = Region.FromHrgn(CreateRoundRectRgn(0, 0, panel7.Width, panel7.Height, 20, 20));
             pictureBox3.Region = Region.FromHrgn(CreateRoundRectRgn(0, 0, pictureBox3.Width, pictureBox3.Height, 40, 50));
 
-            panel5.Region = Region.FromHrgn(CreateRoundRectRgn(0, 0, panel5.Width, panel5.Height, 40, 40));
-            panel6.Region = panel5.Region;
+            //panel5.Region = Region.FromHrgn(CreateRoundRectRgn(0, 0, panel5.Width, panel5.Height, 40, 40));
+            //panel6.Region = panel5.Region;
 
             foreach (Control item in panel3.Controls)
             {
                 item.Region = button1.Region;
             }
+            openchildform(new PL.home_page());
         }
 
 
@@ -184,7 +185,7 @@ namespace libManagement.mainPage
 
         private void PictureBox2_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+          
         }
 
         private void Button1_Click(object sender, EventArgs e)
@@ -205,7 +206,7 @@ namespace libManagement.mainPage
 
         private void Button4_Click(object sender, EventArgs e)
         {
-            openchildform(new PL.Books());
+            openchildform(new PL.Lib_Content());
 
         }
 
@@ -224,6 +225,28 @@ namespace libManagement.mainPage
         {
             button9.BackColor = Color.Lavender;
             button9.ForeColor = Color.DarkGray;
+        }
+
+        private void Button5_Click(object sender, EventArgs e)
+        {
+            openchildform(new PL.home_page());
+        }
+
+        private void Button10_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void Button11_MouseMove(object sender, MouseEventArgs e)
+        {
+            button11.BackColor = Color.MediumSlateBlue;
+            button11.ForeColor = Color.Snow;
+        }
+
+        private void Button11_MouseLeave(object sender, EventArgs e)
+        {
+            button11.BackColor = Color.Lavender;
+            button11.ForeColor = Color.DarkGray;
         }
     }
 }

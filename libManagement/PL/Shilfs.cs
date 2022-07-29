@@ -178,5 +178,10 @@ namespace libManagement.PL
                 btn_Save.Text = "حفظ";
             }
         }
+
+        private void Shilfs_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
