@@ -36,11 +36,27 @@ namespace libManagement.PL
 
         private void Panel1_Paint(object sender, PaintEventArgs e)
         {
-            btn_Save.Region = Region.FromHrgn(CreateRoundRectRgn(0, 0, btn_Save.Width, btn_Save.Height, 30, 30));
-            btn_Delete.Region = Region.FromHrgn(CreateRoundRectRgn(0, 0, btn_Save.Width, btn_Save.Height, 30, 30));
-            btn_Edit.Region = Region.FromHrgn(CreateRoundRectRgn(0, 0, btn_Save.Width, btn_Save.Height, 30, 30));
-            btn_New.Region = Region.FromHrgn(CreateRoundRectRgn(0, 0, btn_Save.Width, btn_Save.Height, 30, 30));
+            
 
+        }
+
+        private void Button1_Click(object sender, EventArgs e)
+        {
+            PL.Lib_Content fn = new Lib_Content();
+            fn.ShowDialog();
+        }
+
+        private void Btn_Edit_Click(object sender, EventArgs e)
+        {
+            PL.Lib_Content fn = new Lib_Content();
+            fn.ShowDialog();
+        }
+
+        private void Books_Load(object sender, EventArgs e)
+        {
+            btn_add_content.Region = Region.FromHrgn(CreateRoundRectRgn(0, 0, btn_add_content.Width, btn_add_content.Height,15,15));
+            btn_Delete.Region = Region.FromHrgn(CreateRoundRectRgn(0, 0, btn_Delete.Width, btn_Delete.Height, 15,15));
+            btn_Edit.Region = Region.FromHrgn(CreateRoundRectRgn(0, 0, btn_Edit.Width, btn_Edit.Height, 15,15));
         }
     }
 }

@@ -41,3 +41,4 @@ D:\IT\IT\IT_Level4\Term1\Lecture\Graduate_Project_D_Mokhtar\Our Project(Library 
 D:\IT\IT\IT_Level4\Term1\Lecture\Graduate_Project_D_Mokhtar\Our Project(Library Managment System)\Lab\libManagement\libManagement\obj\Debug\libManagement.PL.home_page.resources
 C:\Users\khatib\Documents\GitHub\libManagement\libManagement\obj\Debug\libManagement.PL.Shilfs.resources
 C:\Users\khatib\Documents\GitHub\libManagement\libManagement\obj\Debug\libManagement.PL.Books.resources
+C:\Users\khatib\Documents\GitHub\libManagement\libManagement\obj\Debug\libManagement.PL.Lib_Content.resources
